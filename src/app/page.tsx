@@ -16,15 +16,17 @@ const teamMembers = [
   },
   {
     name: "Vorleak",
-    role: "Elston's Slave",
+    role: "Something",
     image: "/leah.png",
     description: "Chanthy works directly with farmers to understand their needs and implement supportive programs."
   },
   {
     name: "Elston Tan",
-    role: "Lead Developer",
+    role: "Tech Lead",
     image: "/elston.jpg",
-    description: "Singaporean government AI Research Engineer / Entrepreneur that has raised over $60k USD in funding for 4 different startups based in the US and Singapore."
+    description: "\
+    Singaporean government AI Research Engineer / Entrepreneur that has raised over $60k USD in pre-seed funding for multiple different startups based in the US, Hong Kong and Singapore.\
+    Responsible for maintenance, development and deployment of the CPP platform."
   },
   {
     name: "Bopha Roth",
