@@ -25,8 +25,7 @@ const teamMembers = [
     role: "Tech Lead",
     image: "/elston.jpg",
     description: "\
-    Singaporean government AI Research Engineer / Entrepreneur that has raised over $60k USD in pre-seed funding for multiple different startups based in the US, Hong Kong and Singapore.\
-    Responsible for maintenance, development and deployment of the CPP platform."
+    Singaporean government AI Research Engineer / Entrepreneur that has raised over $60k USD in pre-seed funding for multiple different startups based in the US, Hong Kong and Singapore."
   },
   {
     name: "Bopha Roth",

@@ -12,7 +12,10 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import Link from 'next/link'
 
 const mangoTypes = [
-  "Carabao", "Nam Dok Mai", "Alphonso", "Ataulfo", "Kent", "Keitt", "Tommy Atkins", "Haden"
+  "Carabao", "Nam Dok Mai", 
+  "Alphonso", "Ataulfo", 
+  "Kent", "Keitt", 
+  "Tommy Atkins", "Haden",
 ]
 
 export default function Register() {
