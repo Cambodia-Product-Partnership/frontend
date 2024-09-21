@@ -22,7 +22,7 @@ const teamMembers = [
   },
   {
     name: "Elston Tan",
-    role: "Tech Bro",
+    role: "Tech Lead",
     image: "/elston.jpg",
     description: "\
     Singaporean government AI Research Engineer / Entrepreneur that has raised over $60k USD in pre-seed funding for multiple different startups based in the US, Hong Kong and Singapore."
@@ -82,38 +82,8 @@ export default function Homepage() {
   const [isSidebarOpen, setIsSidebarOpen] = React.useState(false);
 
   return (
+    <div>
     <div className="flex min-h-screen bg-gray-50">
-      {/* Sidebar */}
-      <aside
-        className={`${
-          isSidebarOpen ? 'translate-x-0' : '-translate-x-full'
-        } fixed inset-y-0 left-0 z-50 w-64 bg-green-700 text-white transition-transform duration-300 ease-in-out lg:translate-x-0 lg:static lg:inset-0`}
-      >
-        <div className="flex items-center justify-between p-4">
-          <span className="text-2xl font-semibold">CPP</span>
-          <button onClick={() => setIsSidebarOpen(false)} className="lg:hidden">
-            <X size={24} />
-          </button>
-        </div>
-        <nav className="mt-8">
-          <Link href="/" className="block py-3 px-6 hover:bg-green-800 text-lg">
-            Home
-          </Link>
-          <Link href="/products-market" className="block py-3 px-6 hover:bg-green-800 text-lg">
-            Products & Market
-          </Link>
-          <Link href="/farmer-profiles" className="block py-3 px-6 hover:bg-green-800 text-lg">
-            Farmer Profiles
-          </Link>
-          <Link href="/blog" className="block py-3 px-6 hover:bg-green-800 text-lg">
-            Blog
-          </Link>
-          <Link href="/get-involved" className="block py-3 px-6 hover:bg-green-800 text-lg">
-            Get Involved
-          </Link>
-        </nav>
-      </aside>
-
       {/* Main Content */}
       <div className="flex-1">
         <div
@@ -287,6 +257,7 @@ export default function Homepage() {
           </div>
         </footer>
       </div>
+    </div>
     </div>
   );
 }

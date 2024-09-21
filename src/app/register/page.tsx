@@ -56,6 +56,7 @@ export default function Register() {
   }
 
   return (
+    <div>
     <div className="min-h-screen bg-green-50 flex items-center justify-center">
       <Card className="w-full max-w-md">
         <CardHeader>
@@ -124,6 +125,7 @@ export default function Register() {
           </p>
         </CardFooter>
       </Card>
+    </div>
     </div>
   )
 }

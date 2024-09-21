@@ -25,6 +25,7 @@ export default function Login() {
   }
 
   return (
+    <div>
     <div className="min-h-screen bg-green-50 flex items-center justify-center">
       <Card className="w-full max-w-md">
         <CardHeader>
@@ -50,6 +51,7 @@ export default function Login() {
           </p>
         </CardFooter>
       </Card>
+    </div>
     </div>
   )
 }
