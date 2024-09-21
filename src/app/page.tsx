@@ -9,36 +9,42 @@ import { QuoteIcon } from 'lucide-react';
 
 const teamMembers = [
   {
-    name: "Moni Rachana",
-    role: "Team Lead",
+    name: "Lay Pich Moni Rachana",
+    role: "Project coordinator and operation team",
     image: "/moni.png",
-    description: "With over 20 years of experience in agriculture, Sokha founded CPP to empower local farmers."
+    description: "- Coordinate all activities of the initiative, ensuring timelines and goals are met. - Address any operational issues that arise, providing solutions and support to team members."
   },
   {
     name: "Vorleak",
-    role: "Something",
+    role: "Financial Manger",
     image: "/leah.png",
-    description: "Chanthy works directly with farmers to understand their needs and implement supportive programs."
+    description: "- Oversee the financial planning, budgeting, and reporting for the initiative, - Monitor expenses and ensure transparency in financial transactions. - Organize the fundraising event "
   },
   {
     name: "Elston Tan",
-    role: "Tech Lead",
+    role: "Tech Bro",
     image: "/elston.jpg",
     description: "\
     Singaporean government AI Research Engineer / Entrepreneur that has raised over $60k USD in pre-seed funding for multiple different startups based in the US, Hong Kong and Singapore.\
     Responsible for maintenance, development and deployment of the CPP platform."
   },
   {
-    name: "Bopha Roth",
-    role: "Marketing Director",
+    name: "Lim Suling",
+    role: "Logistics and Liaison Officer",
     image: "/placeholder.svg?height=300&width=300",
-    description: "Bopha oversees our marketing strategies to promote Cambodian produce in local and international markets."
+    description: " - Build relationships with farmers and market. - Act as the main point of contact for farmers regarding logistics and transport."
   },
   {
-    name: "Dara Sok",
-    role: "Operations Manager",
+    name: "Hour MengHok",
+    role: "Marketing and communication",
     image: "/placeholder.svg?height=300&width=300",
-    description: "Dara ensures smooth day-to-day operations and logistics for our farmer partnerships."
+    description: "-Create engaging content for social media with volunteers. - Ensure consistent messaging that aligns with the initiative’s goals and values."
+  },
+  {
+    name: "Ou SereyBoth",
+    role: "Data Analyst and Monitoring Manager",
+    image: "/placeholder.svg?height=300&width=300",
+    description: " -Collect and analyze data on market trends, farmer income, and overall project impact. - Conduct surveys and gather feedback from farmers and buyers to inform decision-making."
   }
 ]
 
