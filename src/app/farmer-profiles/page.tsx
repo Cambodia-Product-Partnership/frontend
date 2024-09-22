@@ -21,13 +21,13 @@ const farmers = [
   {
     id: 2,
     name: "Rithy Seng",
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/farmer.jpg",
     location: "Siem Reap Province",
     specialty: "Tropical Fruits",
     journey: "A second-generation farmer, Rithy dreamed of expanding beyond local markets. CPP provided the network and knowledge to make it happen.",
     challenges: "Struggled with post-harvest losses and limited access to cold storage facilities.",
     impact: "CPP's cold chain solutions reduced Rithy's post-harvest losses by 60%, significantly increasing his income.",
-    success: "Rithy's mangoes are now exported to Singapore and Hong Kong, fetching premium prices."
+    success: "Rithy's mangoes are now exported to nearby markets, earning him more money to expand his farm."
   },
   {
     id: 3,
